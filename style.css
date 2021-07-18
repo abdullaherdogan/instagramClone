@@ -1,0 +1,121 @@
+.navbar{
+    height: 54px !important;
+}
+.navbar img{
+    margin-left: 192px;
+}
+::placeholder:first-child{
+    text-align: center;
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.411);
+    background-image:url(/assets/search-solid.svg);
+    background-repeat: no-repeat;
+    background-position: 35%;
+    background-size: 6%;
+}
+.story{
+    border: 1px solid red !important;
+}
+.storytext{
+    font-size: 12px;
+}
+.my-photo{
+    width: 60px;
+}
+.sidetext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.follow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+.follow-photo{
+    height: 30px;
+    width: 30px;
+}
+.card-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 30px;
+}
+.interaction{
+    display: flex;
+    justify-content: flex-start;
+}
+.interaction a{
+    margin-right: 8px;
+}
+.bookmark{
+    display: flex;
+    justify-content: flex-end;
+}
+.likes{
+    display: flex;
+    flex-direction: row;
+}
+.likes p{
+    margin: 5px 0 0 5px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+.comments{
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 0;
+    font-size: 14px;
+}
+.comments p{
+    margin: 0;
+}
+#interactions a{
+    color: black;
+    font-size: 18px;
+}
+.card-link{
+    text-decoration: none;
+    text-align: center;
+    position: sticky;
+}
+.buttonIn {
+    width: 300px;
+    position: relative;
+}
+.comments input{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border: none;
+}
+.comments a{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    z-index: 2;
+    border: none;
+    top: 2px;
+    height: 30px;
+    transform: translateX(2px);
+    text-decoration: none;
+}
+.rightpanel{
+    height: 100% !important; /* Full-height: remove this if you want "auto" height */
+  width: 160px !important; /* Set the width of the sidebar */
+  position: fixed !important; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
